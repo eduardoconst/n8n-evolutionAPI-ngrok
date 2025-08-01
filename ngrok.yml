@@ -1,5 +1,5 @@
 version: "2"
-authtoken: SEU_AUTH_TOKEN_NGROK
+authtoken: 30KCdCUtq0eZ1BjYApUUWMwzLVi_3VVxDFxHVgiZvcPzo2xVj
 tunnels:
   n8n:
     proto: http

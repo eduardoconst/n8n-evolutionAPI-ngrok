@@ -127,11 +127,19 @@ docker-compose down -v
 ## Estrutura dos Serviços
 
 - **n8n**: Ferramenta de automação conectada ao PostgreSQL.
-- **Evolution API**: API de mensagens com suporte a Redis e PostgreSQL.
+- **Evolution API v1.8.4**: API de mensagens com suporte a Redis e PostgreSQL.
 - **PostgreSQL**: Banco de dados principal com suporte a vetores (via `pgvector`).
 - **Redis**: Cache para o Evolution API.
 - **Ngrok**: Expõe o n8n para acesso externo.
 - **Adminer**: Interface para gerenciamento do banco de dados.
+
+## Versões Utilizadas
+
+- **Evolution API**: v1.8.4 (atendai/evolution-api:v1.8.4)
+- **n8n**: Última versão disponível (n8nio/n8n)
+- **PostgreSQL**: ankane/pgvector (com suporte a vetores)
+- **Redis**: Alpine
+- **Ngrok**: Alpine
 
 ## Notas
 
